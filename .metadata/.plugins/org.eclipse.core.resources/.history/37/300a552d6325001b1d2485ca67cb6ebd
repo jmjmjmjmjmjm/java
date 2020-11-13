@@ -1,0 +1,20 @@
+package Ch04;
+
+
+//자바 특징 : 모든 코드는 class 내부에 둬야한다.
+public class Method01 {
+	
+	static void add() {
+		
+	}
+	
+	void sound() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
