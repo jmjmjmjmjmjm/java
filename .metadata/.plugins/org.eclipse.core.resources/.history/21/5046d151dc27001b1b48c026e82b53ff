@@ -1,0 +1,25 @@
+package book;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class First {
+	
+	public int kick;
+	public int punch;
+	
+	public First(int kick,int punch) {
+		this.kick =kick;
+		this.punch =punch;
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

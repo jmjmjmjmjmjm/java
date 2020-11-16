@@ -1,0 +1,19 @@
+package star1;
+
+class Dragon {
+	private String name;
+	private int hp;
+	private int attack;
+	
+	public Dragon() {
+	
+	}
+	public Dragon(String n,int h,int a) {
+		name=n;
+		hp=h;
+		attack=a;
+		
+		
+	}
+	
+}

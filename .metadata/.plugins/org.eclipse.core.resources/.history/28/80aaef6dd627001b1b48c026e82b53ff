@@ -1,0 +1,11 @@
+package Ch04;
+
+public class CatApp {
+
+	public static void main(String[] args) {
+		Cat c =new Cat();
+		
+
+	}
+
+}
