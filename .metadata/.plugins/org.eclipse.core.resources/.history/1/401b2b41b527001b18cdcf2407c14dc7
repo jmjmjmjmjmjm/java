@@ -1,0 +1,22 @@
+package star1;
+
+public class Star1App {
+
+	static void attack(Zealot u1,Dragon u2) {
+		u2.hp = u2.hp - u1.attack; //90
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Zealot z1 = new Zealot("질럿1",100,10);
+		Dragon d1= new Dragon("드라군1",100,20);
+		
+		//1. 질럿 - > 드라군 공격
+		attack(z1,d1);
+		
+		System.out.println(d1.hp);
+		System.out.println();
+	}
+
+}

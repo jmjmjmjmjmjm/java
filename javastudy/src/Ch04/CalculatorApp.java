@@ -1,0 +1,15 @@
+package Ch04;
+
+public class CalculatorApp {
+	
+	public static void main(String[] args) {
+		Calculator cal = new Calculator();
+		int sum =cal.add(10, 5);
+		int mult = cal.multi(sum, 20);
+		int div =cal.divid(mult,5);
+		int minus = cal.minus(div, 100);
+		
+		int result =minus;
+		System.out.println(result);
+	}
+}

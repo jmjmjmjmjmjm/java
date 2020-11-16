@@ -1,0 +1,9 @@
+package Ch04;
+
+public class Person {
+	String name;
+	String job;
+	int age;
+	char gender;
+	char blood;
+}

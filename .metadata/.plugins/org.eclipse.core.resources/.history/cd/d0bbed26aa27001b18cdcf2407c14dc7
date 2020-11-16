@@ -1,0 +1,15 @@
+package Ch04;
+
+public class Person {
+	String name;
+	String job;
+	int age;
+	char gender;
+	char blood;
+	
+	void preview() {
+		System.out.println("===="+name + "====");
+		System.out.println("Á÷¾÷:" +job);
+	}
+	
+}

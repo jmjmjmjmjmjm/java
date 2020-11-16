@@ -1,0 +1,12 @@
+package Ch04;
+
+public class PersonApp2 {
+
+	public static void main(String[] args) {
+		Person p1 = new Person("ÃÖ½ÂÈñ","ÀÇ»ç",45,'¿©',"A");
+		p1.preview();
+		Person p2 = new Person("ÃÖ½ÂÈñ","ÀÇ»ç",45,'¿©',"A");
+		p2.preview();
+	}
+
+}
