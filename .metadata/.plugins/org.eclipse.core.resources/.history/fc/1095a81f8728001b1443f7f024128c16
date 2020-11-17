@@ -1,0 +1,23 @@
+package star1;
+
+interface StarUnit {
+	void unit();
+}
+
+class zealot implements StarUnit{
+	public void unit() {
+		System.out.println("질럿");
+	}
+}
+
+class dragon implements StarUnit{
+	public void unit() {
+		System.out.println("드라군");
+	}
+}
+
+class dark implements StarUnit{
+	public void unit() {
+		System.out.println("다크템플러");
+	}
+}

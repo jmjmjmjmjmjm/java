@@ -1,0 +1,21 @@
+package star1;
+
+//1. 질럿과 드라군,탱크,scv,다크템플러 => StarUnit 타입일치
+
+
+
+public class Star3App {
+		static void attack(a,b) {
+			StarUnit.(a,b);
+		}
+	
+	public void attack(StarUnit u1,StarUnit u2) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

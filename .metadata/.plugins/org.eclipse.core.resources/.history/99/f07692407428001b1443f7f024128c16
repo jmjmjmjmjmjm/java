@@ -1,0 +1,20 @@
+package Ch05;
+
+// 1. 재산을 물려받는 의미
+
+
+class Father{
+	int money =10000;
+}
+
+class son extends Father{
+	
+}
+
+
+public class Inherit01 {
+		
+	public static void main(String[] args) {
+		
+	}
+}

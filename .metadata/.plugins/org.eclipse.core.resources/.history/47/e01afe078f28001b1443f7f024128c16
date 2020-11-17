@@ -1,0 +1,42 @@
+package star1;
+
+
+interface StarUnit {
+	
+}
+
+class Zealot implements StarUnit{
+	public void unit() {
+		System.out.println("질럿");
+	}
+}
+
+class Dragon implements StarUnit{
+	public void unit() {
+		System.out.println("드라군");
+	}
+}
+
+class Dark implements StarUnit{
+	public void unit() {
+		System.out.println("다크템플러");
+	}
+}
+
+class Scv implements StarUnit{
+	public void unit() {
+		System.out.println("SCV");
+	}
+}
+
+class Tank implements StarUnit{
+	public void unit() {
+		System.out.println("탱크");
+	}
+}
+
+public class StarUnit {
+	 void attack(StarUnit a,StarUnit b) {
+		a.attack(a,b);
+	}
+}

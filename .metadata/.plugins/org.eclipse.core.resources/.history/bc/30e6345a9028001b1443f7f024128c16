@@ -1,0 +1,8 @@
+package star1;
+
+
+public class StarUnit {
+	String name;
+	int attack;
+	int hp;
+}

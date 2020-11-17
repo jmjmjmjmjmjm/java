@@ -1,0 +1,23 @@
+package login;
+
+public class Kakao {
+	String provider;
+	String id;
+	String pass;
+	String name;
+	
+	public Kakao() {
+		this("Kakao","ssar@nate.com","1234","±úºÀ");
+	}
+
+	public Kakao(String provider, String id, String pass, String name) {
+		super();
+		this.provider = provider;
+		this.id = id;
+		this.password = pass;
+		this.name = name;
+	}
+	
+	
+	
+}

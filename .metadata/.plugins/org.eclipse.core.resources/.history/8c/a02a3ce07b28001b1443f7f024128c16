@@ -1,0 +1,41 @@
+package Ch05;
+
+class Animal{
+	
+}
+
+class Dog extends Animal{
+	void sound() {
+		System.out.println("¸Û¸Û");
+	}
+}
+
+class Cat extends Animal{
+	void sound() {
+		System.out.println("³Ä¿Ë");
+	}
+}
+
+class Bird extends Animal{
+	void sound() {
+		System.out.println("Â±Â±");
+	}
+}
+
+public class Inherit03 {
+
+	static void start(Animal) {
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		Inherit03.start(d);
+		
+		Cat c = new Cat();
+		Inherit03.start(c);
+	}
+
+}

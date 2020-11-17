@@ -1,0 +1,16 @@
+package login;
+
+public class OAuth {
+	
+	String getEmail() {
+		return"";
+	}
+	
+	String getPassword() {
+		return"";
+	}
+	
+	String getUsername() {
+		return"";
+	}
+}

@@ -1,0 +1,18 @@
+package Ch05;
+
+// 1. 인터페이스는 new할수없다
+// 2. 인터페이스는 변수를 가질수있다
+
+
+interface Remocon{
+	String name ="리모컨";
+}
+
+public class Interface01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

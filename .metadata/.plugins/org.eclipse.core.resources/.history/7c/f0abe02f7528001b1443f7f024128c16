@@ -1,0 +1,23 @@
+package Ch05;
+
+// 1. 재산을 물려받는 의미 (콤포지션을 해야함)
+
+
+class Father{
+	int money =10000;
+}
+
+class Son extends Father{
+	
+}
+
+
+public class Inherit01 {
+		
+	public static void main(String[] args) {
+		Son s = new Son();
+		
+		System.out.println(s.money);
+		
+	}
+}

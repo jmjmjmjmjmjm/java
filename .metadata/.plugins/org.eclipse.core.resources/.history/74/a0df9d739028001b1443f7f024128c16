@@ -1,0 +1,16 @@
+package star1;
+
+
+public class StarUnit {
+	String name;
+	int attack;
+	int hp;
+	
+	public void attack(StarUnit u2) {
+		System.out.println(this.name + "->" +u2.name+"АјАн");
+	}
+	
+	
+	
+	
+}

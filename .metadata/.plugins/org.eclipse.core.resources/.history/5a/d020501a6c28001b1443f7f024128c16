@@ -1,0 +1,34 @@
+package Ch04;
+
+	class TV{
+		int size;
+		String mf;
+		
+		public TV() {
+			this("LG");
+		}
+		
+		public TV(String mf) {
+			size = 32;
+			this.mf = mf;
+			System.out.println(size + "ÀÎÄ¡ " +mf);
+		}
+		
+		public TV(int size,String mf) {
+			this.size =size;
+			this.mf = mf;
+			System.out.println(size + "ÀÎÄ¡ " +mf);
+		}
+		
+		
+	}
+
+public class TVApp {
+	
+	public static void main(String[] args) {
+		new TV();
+//		new TV("»ï¼º");
+//		new TV(65,"»ï¼º");
+	}
+
+}

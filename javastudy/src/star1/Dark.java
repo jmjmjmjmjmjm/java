@@ -1,13 +1,10 @@
 package star1;
 
-class Dark {
-	String name;
-	int hp;
-	int attack;
+class Dark extends StarUnit{
 	
-	public Dark(String n,int h,int a) {
-		name=n;
-		hp=h;
-		attack=a;
+	public Dark() {
+		name="다크템플러";
+		hp=200;
+		attack=40;
 	}
 }

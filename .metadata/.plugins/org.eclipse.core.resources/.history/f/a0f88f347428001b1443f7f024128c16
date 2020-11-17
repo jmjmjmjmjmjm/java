@@ -1,0 +1,17 @@
+package Ch05;
+
+class Father{
+	int money =10000;
+}
+
+class son extends Father{
+	
+}
+
+
+public class Inherit01 {
+		
+	public static void main(String[] args) {
+		
+	}
+}

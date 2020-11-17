@@ -1,0 +1,19 @@
+package login;
+
+public class LoginApp {
+	
+	static void userinfo(OAuth o) {
+		System.out.println(o.oauthProvider());
+		System.out.println(o.oauthId());
+		System.out.println(o.oauthPassword());
+		System.out.println(o.oauthNick());
+	}
+	
+	
+	public static void main(String[] args) {
+		OAuth f =new Facebook();
+		userinfo(f);
+		
+	}
+
+}
