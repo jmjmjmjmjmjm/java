@@ -9,7 +9,5 @@ public class Star3App {
 		StarUnit r= new Zealot();
 		StarUnit d = new Dark();
 		StarUnit.attack(r,d);
-		
 	}
-
 }

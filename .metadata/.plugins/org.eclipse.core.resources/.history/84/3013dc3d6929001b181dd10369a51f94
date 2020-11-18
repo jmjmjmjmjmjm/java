@@ -1,0 +1,27 @@
+package ch03;
+
+public class Gugudan01 {
+
+	public static void main(String[] args) {
+		
+//		int n1=1;
+		
+//		n1++;
+		
+		for (int n1 = 2; n1 < 10; n1++) {
+			
+		
+		System.out.println();
+		System.out.println(n1+"*1="+(n1*1));
+		System.out.println(n1+"*2="+(n1*1));
+		System.out.println(n1+"*3="+(n1*1));
+		System.out.println(n1+"*4="+(n1*1));
+		System.out.println(n1+"*5="+(n1*1));
+		System.out.println(n1+"*6="+(n1*1));
+		System.out.println(n1+"*7="+(n1*1));
+		System.out.println(n1+"*8="+(n1*1));
+		System.out.println(n1+"*9="+(n1*1));
+		}
+	}
+
+}

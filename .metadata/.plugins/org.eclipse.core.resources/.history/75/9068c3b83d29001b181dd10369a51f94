@@ -1,0 +1,18 @@
+package ch03;
+
+public class If01 {
+
+	public static void main(String[] args) {
+		
+		//표현식
+		if (true) {
+			System.out.println("true 입니다.");
+		}
+		
+		if (false) {
+			System.out.println("실행안됨");
+		} //실행안됨
+		
+	}
+
+}

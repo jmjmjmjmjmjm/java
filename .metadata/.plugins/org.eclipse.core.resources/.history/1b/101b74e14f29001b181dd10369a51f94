@@ -1,0 +1,15 @@
+package ch03;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+public class MyScanner {
+	
+	public String getData() {
+		InputStream in = System.in;
+		InputStreamReader ir = new InputStreamReader(in);
+		BufferedReader br= new BufferedReader(ir);
+	}
+	
+}

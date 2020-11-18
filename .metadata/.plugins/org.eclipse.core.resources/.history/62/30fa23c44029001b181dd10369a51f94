@@ -1,0 +1,26 @@
+package book;
+
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		String str[]= {"가위","바위","보"};
+		int n=(int)(Math.random()*3);
+		
+		System.out.println("컴퓨터와 가위 바위 보 게임을 합니다.");
+		System.out.println("가위 바위 보! >> ");
+		Scanner scan = new Scanner(System.in);
+		m = scan.next();
+		
+		String m;
+		if (n==m) {
+			System.out.println("사용자 : "m);
+		}
+				
+		
+		
+
+	}
+
+}

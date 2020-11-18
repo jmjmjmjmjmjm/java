@@ -1,0 +1,45 @@
+package ch03;
+
+public class Gugudan01 {
+
+	public static void main(String[] args) {
+		
+		int n1=2;
+		
+		
+		System.out.println(n1+"*1=2"+(n1*1));
+		System.out.println(n1+"*2=4"+(n1*1));
+		System.out.println(n1+"*3=6"+(n1*1));
+		System.out.println(n1+"*4=8"+(n1*1));
+		System.out.println(n1+"*5=10"+(n1*1));
+		System.out.println(n1+"*6=12"+(n1*1));
+		System.out.println(n1+"*7=14"+(n1*1));
+		System.out.println(n1+"*8=16"+(n1*1));
+		System.out.println(n1+"*9=18"+(n1*1));
+		
+		n1++;
+		System.out.println();
+		System.out.println(n1+"*1="+(n1*1));
+		System.out.println(n1+"*2="+(n1*1));
+		System.out.println(n1+"*3="+(n1*1));
+		System.out.println(n1+"*4="+(n1*1));
+		System.out.println(n1+"*5="+(n1*1));
+		System.out.println(n1+"*6="+(n1*1));
+		System.out.println(n1+"*7="+(n1*1));
+		System.out.println(n1+"*8="+(n1*1));
+		System.out.println(n1+"*9="+(n1*1));
+		
+		n1++;
+		System.out.println();
+		System.out.println(n1+"*1="+(n1*1));
+		System.out.println(n1+"*2="+(n1*1));
+		System.out.println(n1+"*3="+(n1*1));
+		System.out.println(n1+"*4="+(n1*1));
+		System.out.println(n1+"*5="+(n1*1));
+		System.out.println(n1+"*6="+(n1*1));
+		System.out.println(n1+"*7="+(n1*1));
+		System.out.println(n1+"*8="+(n1*1));
+		System.out.println(n1+"*9="+(n1*1));
+	}
+
+}

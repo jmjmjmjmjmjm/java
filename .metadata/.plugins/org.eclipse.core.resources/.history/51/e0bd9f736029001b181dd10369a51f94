@@ -1,0 +1,16 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class µ·¹è¿­ {
+
+	public static void main(String[] args) {
+		int [] unit = {50000,10000,1000,500,100,50,10,1};
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int n= scan.nextInt;
+		
+	}
+
+}
