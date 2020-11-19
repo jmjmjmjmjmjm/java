@@ -1,0 +1,8 @@
+package Ch05;
+
+public abstract class Pactory {
+	abstract void 색칠();
+	void 건조() {
+		System.out.println("건조 완료.");
+	}
+}

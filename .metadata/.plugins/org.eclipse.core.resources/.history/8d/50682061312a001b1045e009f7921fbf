@@ -1,0 +1,12 @@
+package Ch05;
+
+public class PactoryApp {
+
+	public static void main(String[] args) {
+		Pactory f1 = new BlueCloth();
+		f1.»öÄ¥();
+		f1.°ÇÁ¶();
+
+	}
+
+}

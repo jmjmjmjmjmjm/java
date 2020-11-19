@@ -1,0 +1,8 @@
+package Ch05;
+
+public class Sonata {
+	//ÄŞÆ÷Áö¼Ç
+	private String name;
+	private Engine2000 engine2000;
+	private Handle handle;
+}

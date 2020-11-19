@@ -1,0 +1,8 @@
+package Ch05;
+
+public class BlueCloth extends Pactory{
+
+	protected void »öÄ¥() {
+		System.out.println("ÆÄ¶õ»ö »øÄ¥ ¿Ï·á.");
+	}
+}

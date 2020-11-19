@@ -1,0 +1,22 @@
+package Ch04;
+
+class Car {
+	public Car() {
+		System.out.println("자동차");
+	}
+}
+
+class Sonata {
+
+	public Sonata() {
+		System.out.println("소나타");
+	}
+}
+
+public class Super01 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

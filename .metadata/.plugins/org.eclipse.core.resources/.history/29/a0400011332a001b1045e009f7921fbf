@@ -1,0 +1,6 @@
+package Ch05;
+
+public class Snippet {
+	Pactory f1 = new BlueCloth();
+}
+

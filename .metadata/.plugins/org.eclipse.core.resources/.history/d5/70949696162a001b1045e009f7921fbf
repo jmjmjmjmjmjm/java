@@ -1,0 +1,20 @@
+package Ch04;
+
+class President {
+	
+	
+	private President() {
+		
+	}
+	
+}
+
+public class SingtoneApp {
+
+	public static void main(String[] args) {
+		President p1 = new President() {
+			
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package composit;
+
+public class Shrimp {
+	
+	
+	public BigBurger() {
+		this(2000,"ºò¹ö°Å");
+	}
+}

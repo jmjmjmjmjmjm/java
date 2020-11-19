@@ -1,0 +1,16 @@
+package Ch04;
+
+class Person{
+	//파이널 변수는 반드시 초기화해야함
+	private final String name;
+}
+
+
+public class Final01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

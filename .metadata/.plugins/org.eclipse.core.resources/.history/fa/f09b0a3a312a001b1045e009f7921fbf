@@ -1,0 +1,8 @@
+package Ch05;
+
+public class BlueCloth extends pactory{
+
+	void »öÄ¥() {
+		System.out.println("ÆÄ¶õ»ö »øÄ¥ ¿Ï·á.");
+	}
+}

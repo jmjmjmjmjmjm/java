@@ -1,0 +1,12 @@
+package ch03;
+
+public class Array01 {
+
+	public static void main(String[] args) {
+		//같은 종류의 데이터들이 순차적으로 저장된다.
+		//장점 : 액세스가 빠름.
+		int[] num = new int[];
+
+	}
+
+}

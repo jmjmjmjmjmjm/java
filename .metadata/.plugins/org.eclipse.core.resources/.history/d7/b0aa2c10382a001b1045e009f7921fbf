@@ -1,0 +1,28 @@
+package Ch05;
+
+interface Nife{
+	void 요리();
+	default void 상해() {};
+	
+}
+
+class 백종원 implements Nife{
+
+	@Override
+	public void 요리() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
+
+
+public class Adapter01 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

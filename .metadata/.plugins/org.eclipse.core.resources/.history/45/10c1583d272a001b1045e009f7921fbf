@@ -1,0 +1,10 @@
+package composit;
+
+public class LotteriaApp {
+
+	public static void main(String[] args) {
+		Burger b1 = new Burger();
+
+	}
+
+}

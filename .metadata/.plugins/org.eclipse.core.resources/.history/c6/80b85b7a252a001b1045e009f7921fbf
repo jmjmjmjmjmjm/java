@@ -1,0 +1,37 @@
+package composit;
+
+import lombok.Data;
+
+@Data
+
+public class Burger {
+
+	
+	private int price;
+	private int desc;
+	
+	public Burger(int price, int desc) {
+		super();
+		this.price = price;
+		this.desc = desc;
+	}
+	
+	public Burger() {
+	this(1000,"기본버거");
+		
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+
+
+
+
+	
+
+}

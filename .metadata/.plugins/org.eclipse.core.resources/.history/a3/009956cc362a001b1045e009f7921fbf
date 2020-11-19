@@ -1,0 +1,15 @@
+package Ch05;
+
+public class GameApp {
+	
+	static void start() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Ferari f = new Ferari();
+
+	}
+
+}

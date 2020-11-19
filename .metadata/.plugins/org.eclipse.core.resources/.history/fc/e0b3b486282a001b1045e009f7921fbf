@@ -1,0 +1,17 @@
+package composit;
+
+public class Shrimp extends Burger{
+	
+	
+	public Shrimp() {
+		this(2000,"새우버거");
+	}
+
+	public Shrimp(int price,String desc) {
+		
+	}
+	
+	
+
+	
+}

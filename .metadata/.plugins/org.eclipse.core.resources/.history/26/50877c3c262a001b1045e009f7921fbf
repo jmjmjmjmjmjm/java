@@ -1,0 +1,40 @@
+package composit;
+
+
+//ÄÞÆ÷Áö¼Ç
+public class BurgerSet {
+	private Burger burger;
+	private Potato potato;
+	private Coke coke;
+	
+	public BurgerSet() {
+	
+	}
+
+	public Burger getBurger() {
+		return burger;
+	}
+
+	public void setBurger(Burger burger) {
+		this.burger = burger;
+	}
+
+	public Potato getPotato() {
+		return potato;
+	}
+
+	public void setPotato(Potato potato) {
+		this.potato = potato;
+	}
+
+	public Coke getCoke() {
+		return coke;
+	}
+
+	public void setCoke(Coke coke) {
+		this.coke = coke;
+	}
+	
+	
+	
+}

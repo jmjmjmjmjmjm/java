@@ -1,0 +1,21 @@
+package ch03;
+
+import java.util.Scanner;
+
+public class Wile01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num =sc.nextInt();
+		
+		
+		while(true) {
+			System.out.println("¹ÞÀº°ª : " +num);
+			if(num<0) {
+				break;
+			}
+			
+		}
+	}
+
+}

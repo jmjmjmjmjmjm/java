@@ -1,0 +1,12 @@
+package ch03;
+
+public class Array02 {
+
+	public static void main(String[] args) {
+		double score[][] = { { 3.3, 3.4 }, { 3.5, 3.6 }, { 3.7, 4.0 }, { 4.1, 4.2 } };
+		
+		//4*2=8 °³ÀÇ double =64Byte
+		double score2[][]=new double[4][2];
+	}
+
+}

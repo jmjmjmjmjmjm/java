@@ -1,0 +1,11 @@
+package composit;
+
+public class BigBurger extends Burger{
+	public BigBurger() {
+	
+	}
+	
+	public BigBurger(int price,String desc) {
+		super(price,desc);
+	}
+}

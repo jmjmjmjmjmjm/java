@@ -1,0 +1,16 @@
+package Ch04;
+
+class President{
+	String name;
+	
+}
+
+
+public class SingtoneApp {
+
+	public static void main(String[] args) {
+		President p1=new President();
+		p1.name="πÆ¿Á¿Œ";
+	}
+
+}

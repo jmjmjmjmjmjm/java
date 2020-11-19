@@ -1,0 +1,14 @@
+package Ch05;
+
+
+//protected는 같은 패키지+자식만 상속
+public class PactoryApp {
+
+	public static void main(String[] args) {
+		Pactory f1 = new BlueCloth();
+		f1.색칠(); //동적바인딩
+		f1.건조();
+
+	}
+
+}

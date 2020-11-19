@@ -1,0 +1,15 @@
+package Ch04;
+
+class Person{
+	private final String name;
+}
+
+
+public class Final01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

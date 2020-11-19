@@ -1,0 +1,8 @@
+package Ch05;
+
+public class Ferari {
+	//ÄŞÆ÷Áö¼Ç
+	private String name;
+	private Engine5000 engine5000;
+	private Handle handle;
+}

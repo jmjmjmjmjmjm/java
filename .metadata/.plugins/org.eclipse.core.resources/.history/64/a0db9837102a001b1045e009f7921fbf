@@ -1,0 +1,28 @@
+package Ch04;
+
+class job{
+}
+
+class Police extends job{
+	String name= "°æÂû";
+}
+
+class Doctor extends job{
+	String name="ÀÇ»ç";
+}
+
+
+
+
+
+
+
+public class Array02 {
+	job[] men =new job(Police,Doctor);
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

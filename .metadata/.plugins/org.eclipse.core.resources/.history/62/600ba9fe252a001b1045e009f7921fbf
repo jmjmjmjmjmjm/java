@@ -1,0 +1,24 @@
+package composit;
+
+import lombok.Data;
+
+@Data
+
+public class Burger {
+		
+	private int price;
+	private String desc;
+	
+	public Burger(int price, String desc) {
+
+		this.price = price;
+		this.desc = desc;
+	}
+	
+	public Burger() {
+	this(1000,"기본버거");
+	System.out.println("버거 만들어졌습니다.");
+	}
+	
+
+}

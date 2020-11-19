@@ -1,0 +1,6 @@
+package Ch05;
+
+public class Sonata {
+	private String name;
+	private Engine2000 engine2000;
+}

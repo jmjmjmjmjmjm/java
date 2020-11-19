@@ -1,0 +1,61 @@
+package Ch04;
+
+class job{
+	
+}
+
+class Police extends job{
+	String name= "°æÂû";
+	 public Police() {
+	
+	}
+	public Police(String name) {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	 
+}
+
+class Doctor extends job{
+	String name="ÀÇ»ç";
+	
+	public Doctor() {
+	
+	}
+
+	public Doctor(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}
+
+
+
+
+
+
+
+public class Array02 {
+	
+	public static void main(String[] args) {
+		job[] men =new job[2];
+		
+		men[0]=new Police(getName());
+		men[1]=new Doctor(getName());
+		
+	}
+
+}

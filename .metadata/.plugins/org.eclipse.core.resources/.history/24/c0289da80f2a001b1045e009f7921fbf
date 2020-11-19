@@ -1,0 +1,23 @@
+package Ch04;
+
+class Police{
+	String name= "°æÂû";
+}
+
+class Doctor{
+	String name="ÀÇ»ç";
+}
+
+
+
+
+
+
+
+public class Array02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
