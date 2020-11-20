@@ -1,0 +1,20 @@
+package json;
+
+import com.google.gson.Gson;
+
+class Comment() {
+	
+}
+
+
+public class Json01 {
+
+	public static void main(String[] args) {
+		Comment ct1 = new Comment(1,"´ñ±Û");
+		
+		Gson gson = new Gson();
+		String ct1Json = gson.toJson(ct1);
+
+	}
+
+}

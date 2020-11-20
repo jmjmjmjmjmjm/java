@@ -1,9 +1,0 @@
-package Ch04;
-
-public class Method01 {
-	public static void main(String[] args) {
-		
-
-	}
-
-}

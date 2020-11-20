@@ -1,0 +1,13 @@
+package ch06;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		int num =10;
+		Integer num2 = 20;
+		
+		Object num3 = num2;
+
+	}
+
+}

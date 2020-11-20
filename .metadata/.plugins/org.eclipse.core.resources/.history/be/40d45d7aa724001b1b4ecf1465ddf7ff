@@ -1,9 +1,0 @@
-package ch02;
-
-public class Var01 {
-	public static void main(String[] args) {
-		//Code 부분
-		System.out.println("첫번째");
-		System.out.println("두번째");
-	}//end of main
-}

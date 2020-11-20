@@ -1,0 +1,29 @@
+package ch06;
+
+public class Object04 {
+	private int id;
+	private String username;
+	private String password;
+	
+	public Object04() {
+	
+	}
+	
+	public String toString() {
+		return "¾È³ç";
+	}
+	
+	public Object04(int id, String username, String password) {
+		this.id = id;
+		this.username = username;
+		this.password = password;
+	}
+}
+
+public class Object04{
+	public static void main(String[] args) {
+		User2 user = new User2(1,"ssar","1234");
+		System.out.println(user);
+	}
+	
+}

@@ -1,9 +1,0 @@
-package ch02;
-
-public class Oper03 {
-	public static void main(String[] args) {
-		
-		System.out.println(1==1); //비교연산 결과(boolean)
-		System.out.println(1==2);
-	}
-}//end

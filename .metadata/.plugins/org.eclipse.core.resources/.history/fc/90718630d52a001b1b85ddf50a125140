@@ -1,0 +1,28 @@
+package ch06;
+
+public class User {
+	private int id;
+	private String username;
+	private String password;
+	
+	public User() {
+	
+	}
+	
+	public String toString() {
+		return "¾È³ç";
+	}
+	
+	public User(int id, String username, String password) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+	}
+
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

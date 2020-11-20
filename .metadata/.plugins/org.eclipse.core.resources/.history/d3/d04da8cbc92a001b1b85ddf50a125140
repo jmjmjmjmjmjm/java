@@ -1,0 +1,17 @@
+package ch06;
+
+public class Object02 {
+
+	static void test(Object num) {
+		int money = 10000;
+		int sum = money + num;
+	}
+	
+	
+	public static void main(String[] args) {
+		Object test =10;
+		test(num);
+
+	}
+
+}

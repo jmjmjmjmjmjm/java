@@ -1,0 +1,49 @@
+package ch06;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+// DTO = Data Transfer Object = 통신에서 많이 사용됨.
+class UserDto{
+	private int id;
+	private String name;
+}
+
+
+public class String01 {
+
+	public static void main(String[] args) {
+		String data = "id:1,name:홍길동";
+		String s[]= data.split(",");   //분리
+		String ss[]=s[0].split(":");
+		
+//		for (int i = 0; i < s.length; i++) {
+//			System.out.println(ss[i]);
+//		}
+		ss[0]=s[0]+":";
+		
+		UserDto setting =new UserDto(); //클래스호출
+		
+		int number = Integer.parseInt(ss[1]); //숫자로
+		
+		
+		setting.setId(number);  //세팅
+		setting.setName(s[1]);  //세팅
+		System.out.println(setting.getId()); //출력
+		
+		System.out.println();
+		
+		//파싱 parsing (구문분석)
+//		UserDto dto = new UserDto();
+//		dto.setId(1);
+//		dto.setName("홍길동");
+//		System.out.println(dto);
+
+	}
+
+}

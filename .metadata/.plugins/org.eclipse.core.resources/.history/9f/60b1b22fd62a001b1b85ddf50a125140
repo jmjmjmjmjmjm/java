@@ -1,0 +1,24 @@
+package ch06;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data //百磐技磐
+@AllArgsConstructor 
+@NoArgsConstructor //后积己磊
+class User3{
+	private int id;
+	private String username;
+}
+
+
+
+public class Object5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

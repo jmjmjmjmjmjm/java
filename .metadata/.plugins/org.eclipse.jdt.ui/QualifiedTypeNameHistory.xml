@@ -4,9 +4,6 @@
     <fullyQualifiedTypeName name="Ch04.Method01"/>
     <fullyQualifiedTypeName name="Ch04.Circle"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="book.First"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="star1.Zealot"/>
@@ -17,4 +14,11 @@
     <fullyQualifiedTypeName name="java.nio.Buffer"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Ch04.President"/>
+    <fullyQualifiedTypeName name="Ch05.RedCloth"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
 </qualifiedTypeNameHistroy>
