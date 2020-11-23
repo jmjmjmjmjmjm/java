@@ -1,7 +1,0 @@
-package star1;
-
-public class Marine {
-	private String name;
-	private int hp;
-	private int attack;
-}

@@ -1,0 +1,13 @@
+package review;
+
+abstract class 가구 {
+
+}
+
+public class 클래스오브젝트와인스턴스_10 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

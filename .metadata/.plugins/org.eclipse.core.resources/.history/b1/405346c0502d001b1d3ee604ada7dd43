@@ -1,0 +1,27 @@
+package ch09;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Quiz extends JFrame {
+
+	public void Quiz() {
+		setTitle("실습");
+		setSize(200, 800);
+
+		Container n = getContentPane();
+		n.setLayout(new FlowLayout());
+		ㅜ.add(btn1, MyLayout.WEST.getValue());
+		JButton btn1 = new JButton("버튼1");
+		
+	}
+
+	public static void main(String[] args) {
+		new Quiz();
+
+	}
+
+}

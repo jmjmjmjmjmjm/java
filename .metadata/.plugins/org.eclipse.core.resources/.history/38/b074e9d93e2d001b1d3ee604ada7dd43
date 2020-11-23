@@ -1,0 +1,31 @@
+package ch09;
+
+import java.awt.Container;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+//Swing은 내부적으로 While이 돌고 있음. (데몬프로세스)
+
+public class Swing01 extends JFrame {
+	public Swing01() {
+		setTitle("제목");
+		setSize(300, 500);
+
+		Container c = getContentPane();
+		JButton btn1 = new JButton("버튼1");
+		JButton btn2 = new JButton("버튼1");
+		JButton btn3 = new JButton("버튼1");
+		JButton btn4 = new JButton("버튼1");
+		JButton btn5 = new JButton("버튼1");
+
+		c.add(btn1,"West");
+
+		setVisible(true);
+
+	}
+
+	public static void main(String[] args) {
+		new Swing01();
+	}
+
+}

@@ -1,0 +1,17 @@
+package review;
+
+class 저장소 {
+
+	void 다운로드() {
+
+	}
+
+}
+
+public class 상속122 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

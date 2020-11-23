@@ -1,0 +1,25 @@
+package ch09;
+
+import java.awt.Container;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Swing01 extends JFrame {
+	public Swing01() {
+		setTitle("제목");
+		setSize(300, 500);
+
+		Container c = getContentPane();
+		JButton btn1 = new JButton("버튼1");
+
+		c.add(btn1);
+
+		setVisible(true);
+
+	}
+
+	public static void main(String[] args) {
+		new Swing01();
+	}
+
+}

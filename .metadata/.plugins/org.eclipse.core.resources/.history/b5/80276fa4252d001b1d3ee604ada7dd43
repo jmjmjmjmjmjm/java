@@ -1,0 +1,18 @@
+package review;
+
+/**
+ * 
+ * @author 진명
+ * static 은 main이 시작하기 전에 메모리에 로딩된다.
+ * 그 말은 static 데이터는 중복될 수 없음. 단 한번만 메모리에 로딩되기 때문.
+ * 두개가 메모리에 뜰 수 없음 -> static 데이터는 공유될 수 있는 데이터
+ */
+
+public class 스태틱과힙의차이_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

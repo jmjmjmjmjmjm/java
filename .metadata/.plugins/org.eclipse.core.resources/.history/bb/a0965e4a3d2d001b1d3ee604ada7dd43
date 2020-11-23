@@ -1,0 +1,23 @@
+package ch09;
+
+import javax.swing.JFrame;
+
+public class Swing01 extends JFramee{
+	public Swing01() {
+		setTitle("Á¦¸ñ");
+		setVisible(true);
+		
+	}
+	
+	
+	private void setTitle(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public static void main(String[] args) {
+		new Swing01();
+	}
+
+}

@@ -1,0 +1,17 @@
+package ch09;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Swing04 extends JFrame{
+
+
+	public Swing04() {
+
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}
+

@@ -1,0 +1,18 @@
+package review;
+
+public class 메서드매개변수인수_08 {
+
+	// void 리턴이없다. add는 변수이름,()은 함수라는뜻
+	// int n1,int n2 매개변수(arguments)
+	void add(int n1, int n2) {
+		System.out.println(n1 + n2);
+	}
+
+	public static void main(String[] args) {
+		메서드매개변수인수_08 e= new 메서드매개변수인수_08();
+		e.add(n1, n2); //점프후 13번라인으로 돌아옴.
+		
+		
+	}
+
+}

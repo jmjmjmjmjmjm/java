@@ -1,0 +1,15 @@
+package review;
+
+public class 스택과지역변수_09 {
+
+	void add() { //함수 내부 = 중괄호 내부 = {} = stack이 오픈된다고함. 
+		int n1 = 10; //add()함수 스택에 4Byte가 할당됨.
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

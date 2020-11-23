@@ -1,0 +1,22 @@
+package review;
+
+class 저장소 {
+
+	String data;
+
+	String 다운로드() {
+		data = "GTA5 게임";
+		
+		return data;
+	}
+
+}
+
+public class 상속122 {
+
+	public static void main(String[] args) {
+		저장소 s = new 저장소();
+		s.다운로드();
+	}
+
+}

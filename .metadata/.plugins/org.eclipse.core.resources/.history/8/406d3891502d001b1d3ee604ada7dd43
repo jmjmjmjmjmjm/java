@@ -1,0 +1,23 @@
+package ch09;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class Quiz extends JFrame {
+
+	public void Quiz() {
+		setTitle("½Ç½À");
+		setSize(200, 800);
+
+		Container n = getContentPane();
+		n.setLayout(new FlowLayout());
+	}
+
+	public static void main(String[] args) {
+		new Quiz();
+
+	}
+
+}

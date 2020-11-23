@@ -1,0 +1,27 @@
+package review;
+
+//TV 4대 삼성,LG,대우,일렉트론
+
+interface Remocon {
+	void change();
+
+	public void change() {
+	System.out.println("채널 변경");
+	}
+}
+
+class SamsungRemocon implements Remocon {
+
+}
+
+class LGRemocon implements Remocon {
+
+}
+
+public class 인터페이스_12 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

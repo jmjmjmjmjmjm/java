@@ -1,0 +1,29 @@
+package review;
+
+class 저장소 {
+
+	String data;
+
+	String 다운로드() {
+		data = "GTA5 게임";
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} //1000=1초 
+		return data;
+	}
+
+}
+
+public class 상속122 {
+
+	public static void main(String[] args) {
+		저장소 s = new 저장소();
+		String game = s.다운로드();
+		
+		System.out.println(game + "실행");
+	}
+
+}

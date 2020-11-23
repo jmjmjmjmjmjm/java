@@ -1,0 +1,12 @@
+package ch09;
+
+public class Quiz extends Frame{
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package review;
+
+
+
+public class 배열_05 {
+	
+	public static void main(String[] args) {
+		//배열 : 연속된 데이터공간을 확보해주기 때문에 엑세스가 굉장히 빠름.
+		//단점 : 배열은 데이터 추가,삭제가 안됨.
+		//특징 : 같은 타입의 데이터를 저장하는 자료형
+
+	}
+
+}

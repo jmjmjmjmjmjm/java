@@ -1,0 +1,17 @@
+package review;
+
+abstract class 가구 { //class = 설계도 = new X = Object X
+
+}
+
+class 침대 { //calss = 설계도 = new O = Object O
+
+}
+
+public class 클래스오브젝트와인스턴스_10 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

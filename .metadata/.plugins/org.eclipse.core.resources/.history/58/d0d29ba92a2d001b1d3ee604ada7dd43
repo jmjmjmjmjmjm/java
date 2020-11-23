@@ -1,0 +1,10 @@
+package review;
+
+public class 스택과지역변수_09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

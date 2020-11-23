@@ -1,0 +1,15 @@
+package review;
+
+public class 다운캐스팅과업캐스팅_06 {
+	public static void main(String[] args) {
+		int n1 = 100;
+		
+		
+		//이유 : 작은 데이터가 큰 공간에 들어가는 것이기 때문에 가능
+		double n2 =n1; //업 캐스팅 (묵시적 형변환)
+		
+		
+		double n3 = 10.5;
+		int n4 = n3;
+	}
+}

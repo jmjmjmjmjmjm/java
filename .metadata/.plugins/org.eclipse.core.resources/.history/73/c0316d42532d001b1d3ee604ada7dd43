@@ -1,0 +1,17 @@
+package ch09;
+
+public class GridLayoutEx extends Jframe{
+	public GridLayoutEx() {
+		setTitle("GridLayout Sample");
+		
+	}
+	
+
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

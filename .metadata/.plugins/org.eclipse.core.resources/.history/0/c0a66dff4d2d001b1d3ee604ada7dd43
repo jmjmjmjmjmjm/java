@@ -1,0 +1,25 @@
+package ch09;
+
+import java.awt.Container;
+
+import javax.swing.JFrame;
+
+public class Swing02 extends JFrame{
+	
+	public Swing02() {
+		setTitle("플로우 레이아웃");
+		
+		Containerer c = getContentPane();
+		
+		
+		setVisible(true);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
