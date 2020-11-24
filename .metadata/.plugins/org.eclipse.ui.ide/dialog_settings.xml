@@ -33,6 +33,16 @@
 		<item value="org.eclipse.tm.terminal.feature:10.0.0.202008310002"/>
 		<item value="org.eclipse.tm.terminal.view.feature:10.0.0.202008310315"/>
 		<item value="org.eclipse.userstorage:1.2.0.v20191120-1614"/>
+		<item value="org.eclipse.wb.core.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.core.ui.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.doc.user.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.layout.group.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.rcp.SWT_AWT_support:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.rcp.doc.user.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.rcp.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.swing.doc.user.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.swing.feature:1.9.4.202009181620"/>
+		<item value="org.eclipse.wb.swt.feature:1.9.4.202009181620"/>
 		<item value="org.eclipse.wst.common.fproj:3.7.3.v202007142017"/>
 		<item value="org.eclipse.wst.json_ui.feature:1.1.8.v202004230532"/>
 		<item value="org.eclipse.wst.web_ui.feature:3.19.0.v202008242027"/>
@@ -52,5 +62,13 @@
 	</section>
 	<section name="ResourceNavigator">
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="225"/>
+		<item key="DIALOG_Y_ORIGIN" value="222"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
 	</section>
 </section>

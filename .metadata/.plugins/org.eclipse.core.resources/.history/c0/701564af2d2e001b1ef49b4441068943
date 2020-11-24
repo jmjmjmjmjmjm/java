@@ -1,0 +1,32 @@
+package ch10;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class LoginScreen extends JFrame{
+	
+	private JTextField tfUsername;
+	private JButton btnLogin;
+	
+	public LoginScreen() {
+		tfUsername = new JTextField("");
+		btnLogin = new JButton("·Î±×ÀÎ");
+		
+		
+		setTitle("LOGIN");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(400,500);
+		
+		Container c = getContentPane();
+		c.add(tfUsername,BorderLayout.CENTER);
+		c.add(btnLogin,BorderLayout.SOUTH);
+		
+		initListener();
+		
+		setVisible(true);
+	}
+}

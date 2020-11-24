@@ -1,0 +1,35 @@
+package ch10;
+
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Event01 extends JFrame{
+	
+	private JButton btn1;
+	private JLabel la1;
+	
+	
+	
+	public Event01() {
+		setTitle("이벤트01");
+		setSize(300,400);
+		
+		btn1 = new JButton("클릭하세요");
+		la1 = new JLabel("클릭안됨");
+		
+		Container c = getContentPane(); //JFrame이 기본적으로 가지고있는 JPanel에접근
+		
+		
+		setVisible(true); //생성자 가장마지막에
+	}
+	
+	
+	public static void main(String[] args) {
+		new Event01();
+
+	}
+
+}

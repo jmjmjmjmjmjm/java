@@ -1,0 +1,19 @@
+package ch10;
+
+import javax.swing.JFrame;
+
+public class Event01 extends JFrame{
+	
+	public Event01() {
+		setTitle("¿Ã∫•∆Æ01");
+		setSize(300,400);
+		setVisible(true);
+	}
+	
+	
+	public static void main(String[] args) {
+		new Event01();
+
+	}
+
+}
