@@ -1,0 +1,12 @@
+package coffee;
+
+public class Ä¿ÇÇ¾Û {
+	public static void main(String[] args) {
+		¹Ù¸®½ºÅ¸ b1 = new ¹Ù¸®½ºÅ¸();
+		°í°´ c1 = new °í°´();
+		
+		
+		//°í°´ = > ¹Ù¸®½ºÅ¸ Çù·Â
+		c1.order(b1);
+	}
+}

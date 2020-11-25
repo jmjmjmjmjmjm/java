@@ -1,0 +1,6 @@
+package coffee;
+
+//책임 : 없음
+public class 커피 {
+
+}

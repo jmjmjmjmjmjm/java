@@ -1,0 +1,15 @@
+package ch07;
+
+import java.util.Random;
+
+public class Hash02 {
+	public static void main(String[] args) {
+		//랜덤으로 숫자를 생성해주는 클래스
+		Random r = new Random();
+		
+		int num = r.nextint(2);
+		System.out.println(num);
+
+	}
+
+}

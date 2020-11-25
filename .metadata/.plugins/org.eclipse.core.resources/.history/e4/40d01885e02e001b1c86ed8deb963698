@@ -1,0 +1,20 @@
+package ch13;
+
+public class 쓰레드01 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("메인 스레드 실행됨");
+		for (int i = 0; i < 10; i++) {
+			try {
+				System.out.println("main :"+i);
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			
+		}
+
+	}
+
+}
