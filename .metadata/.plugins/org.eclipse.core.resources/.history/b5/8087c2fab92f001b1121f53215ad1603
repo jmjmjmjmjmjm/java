@@ -1,0 +1,32 @@
+package ch11;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class CheckBoxItemEventEx extends JFrame{
+	
+	private JCheckBox[] fruits = new JCheckBox[3];
+	private String [] names = {"사과", "배","체리"};
+	
+	private JLabel sumLabel;
+	
+	public CheckBoxItemEventEx() {
+		setTitle("체크박스와 ItemEvent 예제");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout());
+		
+		c.add(new JLabel("사과 100원, 배500원 , 체리 20000원"))
+	}
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

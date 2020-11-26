@@ -1,0 +1,38 @@
+package conn;
+
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.net.ssl.HttpsURLConnection;
+
+public class Conn01 {
+	public static void main(String[] args) {
+		try {
+			// 1. 주소설정 URL 클래스 사용
+			URL url = new URL("https://www.naver.com");
+
+			// 2. 버퍼연결을 위해 스트림에 접근
+			HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
+
+			// 3. 버퍼연결(8192Byte)
+			BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));
+
+			String input = null;
+			String download = "";
+			FileWriter fout = new FileWriter("d:\\file\\test.txt");
+			while ((input = br.readLine()) != null) {
+				download = download + input;
+			}
+
+			fout.write(download, 0, download.length());
+			System.out.print(download);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

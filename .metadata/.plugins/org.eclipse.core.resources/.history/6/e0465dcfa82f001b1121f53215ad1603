@@ -1,0 +1,8 @@
+package ch11;
+
+public class JComponnentEx {
+	public static void main(String[] args) {
+
+	}
+
+}

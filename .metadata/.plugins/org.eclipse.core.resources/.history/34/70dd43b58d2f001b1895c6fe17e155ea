@@ -1,0 +1,15 @@
+package conn;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class Conn01 {
+	public static void main(String[] args) {
+		try {
+			URL url = new URL("https://www.naver.com");
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

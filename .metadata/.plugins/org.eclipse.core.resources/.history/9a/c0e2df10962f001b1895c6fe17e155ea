@@ -1,0 +1,11 @@
+package conn;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		String download = "<p class=\"info_temperature\"><span class=\"todaytemp\">10</span>";
+		int start = download.indexOf("todaytemp");
+		System.out.println(start);
+	}	
+
+}
