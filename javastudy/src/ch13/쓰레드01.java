@@ -1,7 +1,7 @@
 package ch13;
 
 class Another implements Runnable { // Runnable 타입이 되어야함.
-
+	
 	// 실행단위 코드블록 = 스택(스레드)
 	public void run() {
 		System.out.println("새로운 스레드 실행됨");
